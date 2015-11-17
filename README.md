@@ -8,7 +8,7 @@ Requirements:
 
   Build jar that contains: 
  
-- implement whichever interfaces you're interested in
-- [register service providers](https://docs.oracle.com/javase/tutorial/ext/basics/spi.html#register-service-providers) 
+- implementation for desired interfaces
+- [registration for all service providers](https://docs.oracle.com/javase/tutorial/ext/basics/spi.html#register-service-providers) 
 in the META-INF/services directory, packaged with the plugin. This is specifying which class(es) in your plugin jar implement
 which interfaces.
